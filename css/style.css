@@ -1,0 +1,684 @@
+body{
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+    
+    
+    
+    
+
+}
+
+
+.header
+{
+
+    background: url(img/ty.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.y{
+    margin:0 auto;
+    padding:10px;
+    
+}
+.t{
+    margin:0 auto;
+    padding:10px;
+
+}
+.s{
+    margin:0 auto;
+    padding:10px;
+}
+.h{
+    margin:0 auto;
+    padding:20px;
+}
+.navbar
+{
+
+
+    
+    text-align: right;
+    padding: 20px;
+
+}
+.navbar a{
+    
+    
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+    font-family: cursive;
+    margin: 10px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+    
+
+
+}
+
+.navbar a:hover
+{
+    background: transparent;
+    border: 2px solid white;
+
+}
+.header-image
+{
+    float: left;
+    border-radius: 50%;
+    margin: 90px;
+    border: 2px solid #000;
+    height:200px;
+     width:200px;
+
+
+}
+.header-image:hover{
+    border:5px solid #000
+}
+.name1
+{
+    
+    margin:90px 100px 0px 0px;
+    font-size:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    cursor: pointer;
+    overflow: hidden;
+    border-collapse: .11em solid black;
+    white-space: nowrap;
+    
+    letter-spacing: .11em;
+    animation-delay: 2s;
+    animation: typewriter 6s steps(20) normal,
+            blinkTextCursor 500ms steps(30);
+            
+      
+  }
+  @keyframes typewriter{
+      from {width:0}
+      to {width:100%}
+  }
+  @keyframes blinkTextCursor{
+      from, to {border-color: transparent}
+      50% {border-color:black}
+  }
+  .name2
+  {
+      
+      margin:30px 100px 0px 0px;
+      font-size:70px;
+      font-family: Arial, Helvetica, sans-serif;  
+  color:white;
+  cursor: pointer;
+  overflow: hidden;
+  border-collapse: .11em solid black;
+  white-space: nowrap;
+  
+  
+  letter-spacing: .11em;
+  animation-delay: 2s;
+  animation: typewriter 6s steps(30) normal,
+          blinkTextCursor 500ms steps(30);
+          
+          
+    
+}
+@keyframes typewriter{
+    from {width:0}
+    to {width:100%}
+}
+@keyframes blinkTextCursor{
+    from, to {border-color: transparent}
+    50% {border-color:black}
+}
+
+  .name 
+{
+    
+  margin:30px 90px 0px 0px;
+  font-size:40px;
+  font-family: Arial, Helvetica, sans-serif;  
+  color:black;
+  cursor: pointer;
+  overflow: hidden;
+  border-collapse: .11em solid black;
+  white-space: nowrap;
+  
+  letter-spacing: .11em;
+  animation-delay: 2s;
+  animation: typewriter 6s steps(30) normal,
+          blinkTextCursor 500ms steps(30);
+          
+    
+}
+@keyframes typewriter{
+    from {width:0}
+    to {width:50%}
+}
+@keyframes blinkTextCursor{
+    from, to {border-color: transparent}
+    50% {border-color:black}
+}
+
+
+.about-section h2{
+    margin: top;
+    text-align:left;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: underline;
+
+
+}
+.about-section p{
+    font-size: 19px;
+    font-family: cursive;
+    width: 500px;
+    text-align: left;
+    margin: 0 auto;
+    
+    padding: 15px;
+}
+.f-image{
+    float: left;
+    border-radius: 50%;
+    margin: 100px;
+    border: 2px solid #000;
+    height:200px;
+     width:200px;
+
+
+}
+
+
+
+.skills-section h2
+
+{
+    
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-decoration: underline;
+
+
+}
+.skill
+{
+    
+    font-size: 25px;
+    font-family: cursive;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+   
+    padding: 80px;
+    overflow: hidden;
+  border-collapse: .11em solid black;
+  white-space: nowrap;
+  
+  letter-spacing: .11em;
+  animation-delay: 2s;
+  animation: typewriter 6s steps(30) normal,
+          blinkTextCursor 500ms steps(30);
+          
+    
+}
+@keyframes typewriter{
+    from {width:0}
+    to {width:50%}
+}
+@keyframes blinkTextCursor{
+    from, to {border-color: transparent}
+    50% {border-color:black}
+}
+
+.skill2{
+    font-size: 25px;
+    font-family: cursive;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+  border-collapse: .11em solid black;
+  white-space: nowrap;
+  
+  letter-spacing: .11em;
+  animation-delay: 2s;
+  animation: typewriter 7s steps(30) normal,
+          blinkTextCursor 500ms steps(30);
+          
+    
+}
+@keyframes typewriter{
+    from {width:0}
+    to {width:50%}
+}
+@keyframes blinkTextCursor{
+    from, to {border-color: transparent}
+    50% {border-color:black}
+}
+
+    
+    
+    
+
+.skill1{
+    font-size: 25px;
+    font-family: cursive;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    
+    padding: 25px;
+
+    overflow: hidden;
+    border-collapse: .11em solid black;
+    white-space: nowrap;
+    
+    letter-spacing: .11em;
+    animation-delay: 2s;
+    animation: typewriter 6s steps(30) normal,
+            blinkTextCursor 500ms steps(30);
+            
+      
+  }
+  @keyframes typewriter{
+      from {width:0}
+      to {width:50%}
+  }
+  @keyframes blinkTextCursor{
+      from, to {border-color: transparent}
+      50% {border-color:black}
+  }
+  .education-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-decoration: underline;
+  }
+  .timeline {
+    width: 200px;
+    margin: auto;
+  }
+  
+  .timeline_text {
+  
+    border-top: 2px dashed;
+    border-color:black !important;
+    margin:0;
+    padding: 30px;
+  }
+  
+  
+  
+  .timeline_text:nth-child(even) {
+    border-left: 2px dashed;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 30px; 
+    padding-right: 0;
+  }
+  
+  .timeline_text:nth-child(odd) {
+    border-right: 2px dashed;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px; 
+    padding-left: 0;
+  }
+  
+  .timeline_text:first-child {
+    border-top: 0;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+  }
+  
+  .timeline_text:last-child {
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+  }
+  .edu{
+    margin: top;
+      text-align:center;
+      font-size: 50px;
+      font-family: sans-serif;
+      text-decoration: underline;
+  }
+  @media only screen and (max-width:1000px){
+    
+    .header
+{
+
+    background: url(img/ty.jpg);
+    background-size:contain;
+    width: 100%;
+    height: 100vh;
+}
+    .y{
+        margin:0px 10px 0px 50px;
+        
+        padding:2px;
+        
+    }
+    .t{
+        margin:10px 10px 0px 0px;
+        
+        padding:2px;
+    
+    }
+    .s{
+        margin:10px 10px 0px 0px;
+        
+        padding:2px;
+    }
+    .h{
+        margin:10px 10px 0px 0px;
+        
+        padding:2px;
+    }
+    
+    .header-image
+{
+    float: center;
+    border-radius: 50%;
+    margin: 60px;
+    border: 1px solid #000;
+    height:150px;
+     width:150px;
+
+
+}
+    .navbar
+{
+
+
+    
+    text-align: right;
+    padding: 2px;
+
+}
+.navbar a{
+    
+    
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-family: cursive;
+    margin: 2px;
+    border: 2px solid transparent;
+    padding: 1px;
+    transition: 0.3s;
+    
+
+
+}
+
+    .name1
+{
+    
+    
+    margin:300px 0px 0px 50px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+    cursor: pointer;
+    overflow: hidden;
+    border-collapse: .11em solid black;
+    white-space: initial;
+    
+    letter-spacing: .11em;
+    animation-delay: 2s;
+    animation: typewriter 6s steps(20) normal,
+            blinkTextCursor 500ms steps(30);
+            
+      
+  }
+  @keyframes typewriter{
+      from {width:0}
+      to {width:100%}
+  }
+  @keyframes blinkTextCursor{
+      from, to {border-color: transparent}
+      20% {border-color:black}
+  }
+  .name2
+  {
+      
+      margin:15px 50px 0px 50px;
+      font-size:25px;
+      font-family: Arial, Helvetica, sans-serif;  
+  color:white;
+  cursor: pointer;
+  overflow: hidden;
+  border-collapse: .11em solid black;
+  white-space: nowrap;
+  
+  
+  letter-spacing: .11em;
+  animation-delay: 2s;
+  animation: typewriter 6s steps(30) normal,
+          blinkTextCursor 500ms steps(30);
+          
+          
+    
+}
+@keyframes typewriter{
+    from {width:0}
+    to {width:100%}
+}
+@keyframes blinkTextCursor{
+    from, to {border-color: transparent}
+    20% {border-color:black}
+}
+
+  .name 
+{
+    
+  margin:15px 30px 0px 50px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;  
+  color:black;
+  cursor: pointer;
+  overflow: hidden;
+  border-collapse: .11em solid black;
+  white-space: nowrap;
+  
+  letter-spacing: .11em;
+  animation-delay: 2s;
+  animation: typewriter 6s steps(30) normal,
+          blinkTextCursor 500ms steps(30);
+          
+    
+}
+@keyframes typewriter{
+    from {width:0}
+    to {width:50%}
+}
+@keyframes blinkTextCursor{
+    from, to {border-color: transparent}
+    20% {border-color:black}
+}
+.skills-section h2
+
+{
+    
+    text-align: center;
+    font-size: 80px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.skill
+{
+    
+    font-size: 32px;
+    font-family: cursive;
+    width: 750px;
+    text-align: center;
+    margin: 100px 50px 50px 0px;
+   
+    padding: 80px;
+    overflow: hidden;
+  border-collapse: .11em solid black;
+  white-space: nowrap;
+  
+  letter-spacing: .11em;
+  animation-delay: 2s;
+  animation: typewriter 6s steps(30) normal,
+          blinkTextCursor 500ms steps(30);
+          
+    
+}
+@keyframes typewriter{
+    from {width:0}
+    to {width:50%}
+}
+@keyframes blinkTextCursor{
+    from, to {border-color: transparent}
+    50% {border-color:black}
+}
+
+.skill2{
+    font-size: 32px;
+    font-family: cursive;
+    width: 750px;
+    text-align: center;
+    margin: 30px 20px 20px 30px;
+    padding: 50px;
+    overflow: hidden;
+  border-collapse: .11em solid black;
+  white-space: nowrap;
+  
+  letter-spacing: .11em;
+  animation-delay: 2s;
+  animation: typewriter 7s steps(30) normal,
+          blinkTextCursor 500ms steps(30);
+          
+    
+}
+@keyframes typewriter{
+    from {width:0}
+    to {width:50%}
+}
+@keyframes blinkTextCursor{
+    from, to {border-color: transparent}
+    50% {border-color:black}
+}
+
+    
+    
+    
+
+.skill1{
+    font-size: 32px;
+    font-family: cursive;
+    width: 750px;
+    text-align: center;
+    margin: 80px 90px 60px 30px;
+    
+    padding: 25px;
+
+    overflow: hidden;
+    border-collapse: .11em solid black;
+    white-space: nowrap;
+    
+    letter-spacing: .11em;
+    animation-delay: 2s;
+    animation: typewriter 6s steps(30) normal,
+            blinkTextCursor 500ms steps(30);
+            
+      
+  }
+  @keyframes typewriter{
+      from {width:0}
+      to {width:50%}
+  }
+  @keyframes blinkTextCursor{
+      from, to {border-color: transparent}
+      50% {border-color:black}
+  }
+  .about-section p{
+    font-size: 50px;
+    font-family: cursive;
+    width: 500px;
+    text-align: left;
+    margin: 400px auto;
+    
+    padding: 15px;
+}
+.f-image{
+    float: left;
+    border-radius: 50%;
+    margin: 100px;
+    border: 2px solid #000;
+    height:300px;
+     width:300px;
+
+
+}
+.education-section h2{
+    text-align: center;
+    font-size: 90px;
+    font-family: sans-serif;
+    text-decoration: underline;
+  }
+  .timeline {
+    width: 500px;
+    margin: 350px auto;
+  }
+  
+  .timeline_text {
+      font-size: 45px;
+  
+    border-top: 5px dashed;
+    border-color:black !important;
+    margin:0px;
+    padding: 100px;
+  }
+  
+  
+  
+  .timeline_text:nth-child(even) {
+    border-left: 5px dashed;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-right: 30px; 
+    padding-right: 0;
+  }
+  
+  .timeline_text:nth-child(odd) {
+    border-right: 5px dashed;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 30px; 
+    padding-left: 0;
+  }
+  
+  .timeline_text:first-child {
+    border-top: 0;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+  }
+  
+  .timeline_text:last-child {
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+  }
+  .edu{
+    margin: top;
+      text-align:center;
+      font-size: 50px;
+      font-family: sans-serif;
+      text-decoration: underline;
+  }
+
+
+  }
+  
